@@ -12,6 +12,7 @@ namespace PartnersDecisions.Core
 {
     [Serializable]
     [Table("Bill", Schema = "pd")]
+    // hello
     public class Bill : AuditableEntity
     {
         #region  Contractors

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PartnersDecisions.Core
 {
-    [Table("Bill", Schema = "pd")]
+    [Table("Bill", Schema = "pd")]  // start of file 
     // hello
     public class Bill : AuditableEntity
     {
@@ -100,12 +100,12 @@ namespace PartnersDecisions.Core
             return this;
         }
 
-        //public Bill SetBillCancelled()
-        //{
-        //    this.IsValid = false;
-        //    this.SetUpdated();
-        //    return this;
-        //}
+        public Bill SetBillCancelled()
+        {
+            this.IsValid = false;
+            this.SetUpdated();
+            return this;
+        }
         #endregion
     }
 }

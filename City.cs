@@ -8,7 +8,7 @@ namespace PartnersDecisions.Core
 {
     public class City
     {
-        public int CityID { get; private set; }         // this is the new ,pdofo,ca
- //       public string Name { get; private set; }
+        public int CityID { get; private set; }         // this is the no,ca
+        public string Name { get; private set; }
     }
 }
